@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" maximum-scale="1.0" user-scalable="no">
+    <title>Explore More about Ghibli</title>
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="app.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon-32x32.png">
+
+    <!-- Bootstrap Css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Aos -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">    
+</head>
+<body>
+    <!-- Nav -->
+    <nav class="navbar navbar-expand-md visible sticky-top" id="nav">
+        <div class="container">
+            <div class="logo-container">
+                <a href="index.html#header" class="navbar-brand text-white"><img src="images/logo.png" alt=""></a>
+                <a href="" class="nav-link nav-logo rounded-1">For You, Gleiza</a>
+            </div>
+        
+            <i class="bi bi-list" data-bs-toggle="collapse" data-bs-target="#navbarToggle"></i>
+
+            <div class="collapse navbar-collapse" id="navbarToggle">
+                <ul class="navbar-nav menu-items">
+                    <li class="nav-item"><a href="index.html#header" class="nav-link hover-effect">HOME</a></li>
+                    <li class="nav-item"><a href="index.html#about" class="nav-link hover-effect">ABOUT</a></li>
+                    <li class="nav-item"><a href="index.html#movies" class="nav-link hover-effect">MOVIES</a></li>
+                </ul>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarToggle">
+                <ul class="navbar-nav ms-auto menu-items">
+                    <li class="nav-item"><a href="index.html#contact" class="nav-link hover-effect">CONTACT</a></li>
+                    <li class="nav-item"><a href="index.html#faq" class="nav-link hover-effect">FAQ</a></li>
+                    <li class="nav-item"><a href="#signUpButton" class="nav-link hover-effect" data-bs-toggle="offcanvas">PROFILE</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Offcanvas -->
+    <div class="offcanvas offcanvas-end" id="signUpButton">
+        <div class="offcanvas-header">
+            <button class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="sub-heading bg-white my-4 fs-5">REGISTERATION <span class="form-design">FORM</span></div>
+            <div class="heading-line"></div>
+            <form action="">
+                <div class="mb-3">
+                    <label for="" class="mb-2">First Name</label>
+                    <input type="text" name="" id="" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="" class="mb-2">Last Name</label>
+                    <input type="text" name="" id="" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label class="mb-2" for="">Email</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label class="mb-2" for="">Password</label>
+                    <input type="password" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label class="mb-2" for="">Confirm Password</label>
+                    <input type="password" class="form-control">
+                </div>
+                <button class="btn float-end send-btn"><i class="bi bi-send-fill"></i> Sign Up</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- About -->
+    <div class="container py-5" id="info">
+        <h1 class="text-uppercase mb-5" data-aos="fade-right" data-aos-duration="2000">Ghibli Studio,Inc.</h1>
+        <div class="row justify-content-around gy-4 px-3" >
+            <div class="col-md-6 col-lg-3 card py-4" style="width: 18rem">
+                <h1 class="mt-2 mx-3 text-dark">Storytelling</h1>
+                <div class="card-body">
+                    <p class="mb-4">Studio Ghibli's films are known for their strong storytelling, empowering themes, and stunning visuals</p>
+                    <div mx-4>
+                        <li>Love</li>
+                        <hr>
+                        <li>Friendship</li>
+                        <hr>
+                        <li>Maturity</li>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 card py-4" style="width: 18rem">
+                <h1 class="mt-2 mx-3 text-dark">Founding</h1>
+                <div class="card-body">
+                    <p class="mb-4">Founded in 1985 by Hayao Miyazaki, Isao Takahata, and Toshio Suzuki.</p>
+                    <div mx-4>
+                        <li>Arabic word ghibli</li>
+                        <hr>
+                        <li>Hot winds blowing from the Sahara Desert</li>
+                        <hr>
+                        <li>Studio Ghibli, Inc</li>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 card py-4" style="width: 18rem">
+                <h1 class="mt-2 mx-3 text-dark">Known for</h1>
+                <div class="card-body">
+                    <p class="mb-4">Timeless classics: My Neighbor Totoro, Kiki's Delivery Service, and Ponyo </p>
+                    <div mx-4>
+                        <li>Award-winning: Spirited Away</li>
+                        <hr>
+                        <li>Mascot: Totoro</li>
+                        <hr>
+                        <li>Oscar-nominated films</li>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 card py-4" style="width: 18rem">
+                <h1 class="mt-2 mx-3 text-dark">Elements</h1>
+                <div class="card-body">
+                    <p class="mb-4">The forest is not just a setting, but a living entity with its own personality, emotions, and needs.</p>
+                    <div mx-4>
+                        <li>Nature as a character</li>
+                        <hr>
+                        <li>Wonder and beauty</li>
+                        <hr>
+                        <li>Spiritual elements</li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- Custom Js -->
+    <script src="script.js"></script>
+    <!-- AOS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
