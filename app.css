@@ -2,7 +2,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-body {
+body, html {
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
